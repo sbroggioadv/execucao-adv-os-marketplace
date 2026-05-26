@@ -1,0 +1,8 @@
+{
+  "name": "execucao-adv-os",
+  "version": "0.1.0",
+  "description": "Sistema operacional do advogado em execucao de titulo extrajudicial, acao monitoria e acao de cobranca. 22 skills end-to-end: classificacao do titulo, competencia (territorial + funcional JEC/Comum/Federal), notificacao extrajudicial (mora), calculo de atualizacao monetaria por tribunal, peticoes iniciais (execucao/monitoria/cobranca), defesa (embargos execucao/monitorios/contestacao), recursos (embargos declaracao, apelacao, recurso inominado JEC, agravo instrumento, REsp STJ, RE STF), auditoria Suprema Corte R1-R4. Anti-foro-errado por design. Orquestrador execucao-master.",
+  "author": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+  }
+}

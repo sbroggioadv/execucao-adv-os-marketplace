@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "execucao-adv-os-marketplace",
+  "description": "Marketplace oficial do plugin Execucao-Adv-OS. Plugin end-to-end para advogados em execucao de titulo extrajudicial, acao monitoria e acao de cobranca. 22 skills cobrindo do titulo a instancia superior (STJ/STF), com auditoria Suprema Corte R1-R4 obrigatoria em toda peca. Anti-foro-errado + anti-calculo-alucinado por design. Orquestrador: execucao-master.",
+  "owner": {
+    "name": "Sbroggio Advocacia & IA Combativa"
+  },
+  "plugins": [
+    {
+      "name": "execucao-adv-os",
+      "source": "./execucao-adv-os",
+      "description": "Plugin Claude Code para advogados em execucao de titulo extrajudicial, acao monitoria e acao de cobranca. 22 skills end-to-end: classificacao do titulo (cheque/NP/duplicata/contrato/NF/boleto/multa contratual), competencia territorial (arvore 6 niveis com tabela ranqueada) e funcional (JEC/Comum/Federal/Fazenda), notificacao extrajudicial (constituicao em mora), calculo de atualizacao monetaria por tribunal (sem indices hardcoded), 3 peticoes iniciais (execucao/monitoria/cobranca), 3 defesas (embargos execucao/monitorios/contestacao), 6 recursos (embargos declaracao, apelacao, recurso inominado JEC, agravo instrumento, REsp STJ, RE STF), auditoria Suprema Corte R1-R4 em toda peca, gestao de prazos recursais (uteis vs corridos), tutela de urgencia, cumprimento de sentenca. Orquestrador execucao-master.",
+      "author": {
+        "name": "Sbroggio Advocacia & IA Combativa"
+      }
+    }
+  ]
+}
